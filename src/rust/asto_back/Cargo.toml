@@ -1,0 +1,116 @@
+#cargo-features = ["edition2021"]
+
+[package]
+name = "asto_back"
+version = "0.16.1"
+# 0.16.1 removed [login]-section from settings.toml
+# 0.16.0 removed login support
+# 0.15.20 - updated Cargo.toml; fixed clippy issues
+# 0.15.19 - added support for https://asto.dance[/OP_MODE]/asto_back/beta?fest=judges
+# 0.15.18 - adopted to import changed 2023-04-23 
+# 0.15.17 - fixed clippy issues
+# 0.15.16 - did implement index for beta
+# 0.15.15 - did improvement for css
+# 0.15.14 - did improvement for judgelar
+# 0.15.13 - did improvement - объединить детали судейства по разным танцам в рамках тура в одну compound-таблицу
+# 0.15.12 - route'beta' adopted to 2023-04-23; did improvement - не показывать детали судейства для "стартов", где прнимает участие одна пара (танцор)
+# 0.15.11 - added cache for route'beta'
+# 0.15.10 - improved API route'beta' output: added Нарушители, TOC, anchors, colors
+# 0.15.9 - API route'beta' implemented
+# 0.15.8 - 'sax3 --judges' implemented
+# 0.15.7 - adopted to edited xml/2023-03-19/s6.xml
+# 0.15.6 - adopted to xml/2023-03-19/s6.xml
+# 0.15.5 - Command::{Import,Export}: --no-judges, --no-dancers, --no-clubs => --judges, --dancers, --clubs
+# 0.15.4 - Sax3Dancer: removed class_place, class_place 
+# 0.15.3 - adopted to xml/2023-02-19/s6.xml
+# 0.15.2 - fixed issue while export_dancers_for_anton: now class_upgrade is taken into account unlike before
+# 0.15.1 - sax3: Club: "Останкино" => "TV-DANCE"
+# 0.15.0 - a100 -> asto
+# 0.14.2 - Male/Female@points now taken into account along with Couple@points ("Щепкина::5500087" issue at "2022-12-04, Снежный Бал", "2022-10-09, Звездный бал")
+# 0.14.1 - improved category name for import to database for gradient (added dance code as suffix)
+# 0.14.0 - remove place from EventResult
+# 0.13.5 - fixed issues with summary
+# 0.13.4 - fixed issues with Command::Sax3, added export of summary
+# 0.13.3 - implemented Command::Sax3
+# 0.13.2 - implemented Command::Sax, Command::Sax2
+# 0.13.1 - improved Command::ExportDancersForAnton
+# 0.13.0 - enhanced struct InitData
+# 0.12.0 - enhanced struct InitData
+# 0.11.1 - added Command::Sax to parse skate6 xml
+# 0.11.0 - extended db structure
+# 0.10.0 - changed InitData format (u* => i*)
+# 0.9.0 - Commit implemented (NOT!)
+# 0.8.10 - restored front
+# 0.8.9 - Command::Mdb, Command::ExportDancersForAnton implemented
+# 0.8.8 - Command::ImportJudges implemented
+# 0.8.7 - fixed Аста issue
+# 0.8.6 - Command::ExportDancers implemented
+# 0.8.5 - Command::ExportJudges implemented
+# 0.8.4 - fixed import issues
+# 0.8.3 - Command::ImportAddon implemented
+# 0.8.2 - Command::ImportDancebase implemented
+# 0.8.1 - Command::ScanDancebase implemented
+# 0.8.0 - restored ping
+# 0.7.2 - turned off ping for dev
+# 0.7.1 - adopted to sales_back 0.26.*
+# 0.7.0 - adopted to ipado_*: 0.15.*
+# 0.6.0 - added support for #no_access
+# 0.5.2 - fixes ServerMessage::Version issue
+# 0.5.1 - minor fixes
+# 0.5.0 - became template project
+# 0.4.0 - adopted to login
+# 0.3.1 - adopted to pool_db 0.7.0
+# 0.3.0 - adopted to new db (with op_mode)
+# 0.2.0 - InitData implemnemnted
+# 0.1.0 - did compile
+edition = "2021"
+
+# https://docs.rs/built/0.5.1/built/index.html
+build = "build.rs"
+
+[build-dependencies]
+built = "0.6"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
+pretty_env_logger = "0.5"
+structopt = { version = "0.3" }
+futures = { version = "0.3" }
+lazy_static = "1"
+regex = "1"
+strum = { version = "0.25", features = ["derive"] }
+itertools = "0.11"
+paste = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+common_macros2 = { path = "../common_macros2" }
+arrange_millis = { path = "../arrange_millis" }
+config = "0.13"
+warp = "0.3.3"
+hyper = "0.14"
+thiserror = "1"
+rand="0.8"
+bytes="1"
+bincode = "1"
+flate2 = "1"
+asto_common = { path = "../asto_common" }
+asto_db = { path = "../asto_db" }
+op_mode = { path = "../op_mode" }
+tokio-stream = "0.1"
+spreadsheets = { path = "../spreadsheets" }
+pool_db = { path = "../pool_db", features = [ "pg", "settings" ] }
+semver = "1"
+yup-oauth2 = "6"
+xml-rs = "0.8"
+serde_yaml = "0.9"
+maud = "^0.25"
+translit = "^0.5"
+
+[dev-dependencies]
+matches = "0.1"

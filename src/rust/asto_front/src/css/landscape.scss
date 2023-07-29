@@ -1,0 +1,774 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+.guest_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > header {
+        font-family: 'Playfair Display',serif;
+        height: 80px;
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        .left {
+            flex: 0 0 80px;
+            margin: 0 16px;
+            width: 80px;
+            height: 100%;
+            box-sizing: border-box;
+            background-image: url("assets/logo.80.png");
+            background-size: contain;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 60%;
+
+            a {
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 0 15px;
+            }
+        }
+        .right {
+            margin: 0 16px;
+
+            a.login {
+                display: none;
+                // color: black;
+                // font-weight: 700;
+                // background-color: white;
+                // padding: 12px 32px;
+                // border-radius: 20px;
+            }
+        }
+    }
+
+    & > .content {
+        box-shadow: 0px 0px 34.2px 3.8px rgba(0, 0, 0, 0.3);
+        margin-top: 100px;
+        width: calc(100vw - 64px);
+        // max-width: 1000px;
+        box-sizing: border-box;
+        background: #fff;
+        padding: 20px 20px 50px;
+        color: #333333;
+        min-height: 230px;
+
+        h2:before {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 12px;
+            width: 0px;
+            height: 0px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 15px solid #ed1c24;
+            margin-top: -4px;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+            color: #333333;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        h3 {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #333333;
+            text-transform: uppercase;
+
+            label {
+                border: 1px solid transparent;
+            }
+
+            &>select {
+                margin-left: 8px;
+                font-size: 20px;
+                border: none;
+                font-weight: bold;
+                line-height: 24px;
+                text-transform: uppercase;
+                border: 1px silver dotted;
+                border-radius: 4px;
+                &>option {
+                    text-transform: none;
+                    font-size: 16px;
+                }
+            }
+
+            // a {
+            //     font-size: 13px;
+            //     display: inline-block;
+            //     text-decoration: none;
+            //     margin-left: 20px;
+            // }
+        }
+
+        .fixed {
+            position: fixed;
+            top: 102px;
+            padding-top: 24px;
+            background-color: white;
+            z-index: 1;
+            width: calc(100vw - 96px);
+        }
+
+        .filter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .input_wrapper {
+                // margin-left: 12px;
+                position: relative;
+                flex: 1 1 100px;
+                height: 32px;
+                input[type="text"] {
+                    width: 100%;
+                    height: 100%;
+                    font-size: 16px;
+                }
+                input[type="button"] {
+                    position: absolute;
+                    top: 4px;
+                    right: 6px;
+                    height: 24px;
+                    width: 24px;
+                    background-image: url(assets/cross.svg);
+                    background-position: center;
+                }
+            }
+
+            & > input[type="button"] {
+                background: #ee3646;
+                color: #fff;
+                font-weight: 600;
+                padding: 8px 0px;
+                width: 88px;
+                margin-left: 16px;
+                border-radius: 5px;
+                text-transform: uppercase;
+                text-align: center;
+                text-decoration: none;
+                border: none;
+            }
+        }
+
+        .found {
+            line-height: 24px;
+            margin: 12px 0;
+        }
+
+        .sort {
+            margin: 0 16px 16px 0;
+            line-height: 24px;
+
+            select {
+                margin-left: 12px;
+                font-size: 17px;
+                height: 32px;
+            }
+        }
+
+        .not_found {
+            margin-left: 16px;
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .filtered {
+            margin-top: 240px;
+            &.many {
+                margin-top: 290px;
+            }
+            width: 100%;
+            th {
+                color: #c9c9c9;
+            }
+            th  {
+                text-align: center;
+                color: gray;
+            }
+            th, td {
+                font-size: 12px;
+                border-top: #d0d0d0 1px solid;
+                vertical-align: middle;
+                padding: 12px 5px;
+                min-height: 26px;
+                line-height: 15px;
+            }
+            tbody > tr:last-child > td {
+                border-bottom: #d0d0d0 1px solid;
+            }
+            tbody tr td {
+                color: #333;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            th.club, th.citi
+            {
+                text-align: left;
+            }
+            td.birth_date, td.assignment_date {
+                white-space: nowrap;
+            }
+            td.birth_date, td.st_la_class, td.categori, td.class, td.point, td.score, td.number_of_participation_in_festivals {
+                text-align: center;
+            }
+            td.trainer {
+                div:not(:first-child) {
+                    margin-top: 6px;
+                }
+            }
+            tr.event {
+                background: #ddd;
+            }
+            td.event, td.category {
+                padding-left: 12px;
+            }
+        }
+    }
+
+    .suggestlar {
+        position: fixed;
+        top: 320px;
+        left: 51px;
+    }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+            // table.score_points {
+            //     border-collapse: collapse;
+            // }
+
+}

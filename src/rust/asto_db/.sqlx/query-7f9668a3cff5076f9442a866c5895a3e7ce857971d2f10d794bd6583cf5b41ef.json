@@ -1,0 +1,22 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " select get_init_data($1::smallint, null::timestamptz) \"init_data!\" ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "init_data!",
+        "type_info": "Jsonb"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2"
+      ]
+    },
+    "nullable": [
+      null
+    ]
+  },
+  "hash": "7f9668a3cff5076f9442a866c5895a3e7ce857971d2f10d794bd6583cf5b41ef"
+}

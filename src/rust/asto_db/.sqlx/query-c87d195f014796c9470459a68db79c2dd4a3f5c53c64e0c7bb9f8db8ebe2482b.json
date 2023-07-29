@@ -1,0 +1,12 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " call determine_gender() ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": []
+    },
+    "nullable": []
+  },
+  "hash": "c87d195f014796c9470459a68db79c2dd4a3f5c53c64e0c7bb9f8db8ebe2482b"
+}

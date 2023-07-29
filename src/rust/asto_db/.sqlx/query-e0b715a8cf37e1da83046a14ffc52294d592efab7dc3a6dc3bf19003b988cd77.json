@@ -1,0 +1,58 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " select * from export_clublar($1::smallint) ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "club",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 2,
+        "name": "citi",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "chief_last_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 4,
+        "name": "chief_first_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "chief_second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 6,
+        "name": "chief_nick_name",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2"
+      ]
+    },
+    "nullable": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "e0b715a8cf37e1da83046a14ffc52294d592efab7dc3a6dc3bf19003b988cd77"
+}

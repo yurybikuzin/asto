@@ -1,0 +1,160 @@
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    margin: 0; 
+}
+
+.hidden {
+    display: none !important;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+// =================================================
+
+th.club, th.citi
+{
+    text-align: left;
+}
+td.birth_date, td.assignment_date {
+    white-space: nowrap;
+}
+td.birth_date, td.st_la_class, td.categori, td.class, td.point, td.score, td.number_of_participation_in_festivals {
+    text-align: center;
+}
+
+th.ord, td.ord {
+    display: none;
+}
+.many th.ord, .many td.ord {
+    display: table-cell;
+}
+
+th.ord::before { 
+    content: "п/п";
+    white-space: nowrap;
+}
+td.ord::after { 
+    content: ".";
+}
+th.is_active::before { 
+    content: "Взнос";
+}
+td.is_active{
+    &.true { 
+        color: green !important;
+    }
+    &.false { 
+        color: red !important;
+    }
+    &.none { 
+        color: gray !important;
+    }
+}
+th.external_id::before { 
+    content: "№";
+}
+th.name::before { 
+    content: "Ф.И.О.";
+}
+th.age::before { 
+    content: "Возраст";
+}
+th.birth_date::before { 
+    content: "Д.Р.";
+}
+th.class::before { 
+    content: "Класс";
+}
+th.score_points::before {
+    content: "Очки/Баллы";
+}
+th.trainer::before { 
+    content: "Тренер(ы)";
+}
+th.chief::before { 
+    content: "Руководитель";
+}
+th.club::before { 
+    content: "Клуб";
+}
+th.citi::before { 
+    content: "Город";
+}
+th.categori::before { 
+    content: "Категория";
+}
+th.assignment_date::before { 
+    content: "Присвоена";
+}
+th.number_of_participation_in_festivals::before { 
+    content: "Участий";
+}
+
+table.score_points {
+    // margin: 0 auto;
+    th.category::before {
+        content: "Категория";
+    }
+    th.couple_number::before {
+        content: "№";
+    }
+    th.place::before {
+        content: "Место";
+    }
+    th.st_score::before {
+        content: "St";
+    }
+    th.la_score::before {
+        content: "La";
+    }
+    th.st_la_score::before {
+        content: "St+La";
+    }
+    th.points::before {
+        content: "Баллы";
+    }
+    td { 
+        text-align: center;
+    }
+    td.category, td.event { 
+        text-align: left;
+    }
+}
+
+a { 
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline !important;
+}
+
+.suggestlar {
+    // position: fixed;
+    // top: 100px;
+    // left: 20px;
+    z-index: 2;
+    background: #FCF3CF;
+    padding: 6px;
+    border-radius: 4px;
+
+    a {
+        display: block;
+        margin: 12px 4px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+
+.is_not_active {
+    &.st_score, &.la_score, &.points, .st_score, .la_score, .points {
+        text-decoration: line-through;
+    }
+}
+
+

@@ -1,0 +1,30 @@
+.debug {
+  display: none !important;
+}
+
+.menu .inner:before {
+  content: "";
+}
+
+.toc.judgelar, .toc.dancerlar, .toc table {
+  margin-left: 0.5rem;
+}
+
+div.toc.judgelar_categorilar {
+  margin-left: 0 !important;
+}
+div.toc.judgelar_categorilar ul {
+  margin-left: 0.4em !important;
+}
+
+h3.toc, h4.toc, div.toc {
+  margin-left: 1rem !important;
+}
+
+ul.toc {
+  margin-inline-start: 0;
+  padding-inline-start: 2.1rem;
+}
+ul.toc ul {
+  padding-inline-start: 1.1rem;
+}

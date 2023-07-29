@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=auto"/>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+<!-- >>> Customization: -->
+    <link rel="stylesheet" href="css/admin.css" />
+    <title>База Данных::Содружество Танцевальной Общественности</title>
+    <script type="module">
+        const APP = 'asto'
+// <<< Customization
+        Promise.all([import('./js/loader.js'), import('./js/auth.js')])
+            .then(([module_loader, module_auth]) => 
+                module_auth.auth({APP, LOAD_APP: module_loader.load_app})
+            )
+    </script>
+
+</head>
+<body id="app" style="margin: 0"></body>
+</html>

@@ -1,0 +1,59 @@
+
+// table {
+//     display: block;
+//     overflow-x: auto;
+//     white-space: nowrap;
+// }
+// https://stackoverflow.com/questions/3402295/html-table-with-horizontal-scrolling-first-column-fixed
+
+.debug {
+    display: none !important;
+}
+.menu .inner:before {
+    content: '';
+}
+
+.toc {
+    &.judgelar, &.dancerlar, table {
+        margin-left: .5rem;
+    }
+}
+div.toc.judgelar_categorilar {
+    & {
+        margin-left: 0 !important;
+    }
+    ul {
+        margin-left: .4em !important;
+    }
+}
+
+h3, h4, div {
+    &.toc {
+        margin-left: 1rem !important;
+    }
+}
+
+ul.toc {
+    margin-inline-start: 0;
+    padding-inline-start: 2.1rem;
+    ul {
+        padding-inline-start: 1.1rem;
+    }
+}
+
+
+// .outer {
+//     max-width: 100%;
+//     box-sizing: border-box;
+//     position: relative;
+//     .inner {
+//         overflow-x: auto;
+//         table {
+//             padding-top: 2em;
+//             caption {
+//                 top: 1em;
+//                 position: absolute;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,94 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " select * from export_dancerlar_for_anton($1::smallint) ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "external_id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 2,
+        "name": "second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "birth_date",
+        "type_info": "Date"
+      },
+      {
+        "ordinal": 4,
+        "name": "st_class",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "la_class",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 6,
+        "name": "club",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 7,
+        "name": "citi",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 8,
+        "name": "chief",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 9,
+        "name": "trainer",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 10,
+        "name": "trainer2",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 11,
+        "name": "region",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 12,
+        "name": "gender",
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2"
+      ]
+    },
+    "nullable": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "29e9672fa8604cc435b0dce728498270ddd47d255cdbaa9f9e8a73d23a877912"
+}

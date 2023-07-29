@@ -1,0 +1,160 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " select * from export_dancerlar($1::smallint) ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "external_id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 2,
+        "name": "last_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "first_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 4,
+        "name": "second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "nick_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 6,
+        "name": "birth_date",
+        "type_info": "Date"
+      },
+      {
+        "ordinal": 7,
+        "name": "trainer_last_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 8,
+        "name": "trainer_first_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 9,
+        "name": "trainer_second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 10,
+        "name": "trainer_nick_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 11,
+        "name": "trainer2_last_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 12,
+        "name": "trainer2_first_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 13,
+        "name": "trainer2_second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 14,
+        "name": "trainer2_nick_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 15,
+        "name": "club",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 16,
+        "name": "citi",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 17,
+        "name": "st_class",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 18,
+        "name": "la_class",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 19,
+        "name": "st_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 20,
+        "name": "la_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 21,
+        "name": "st_la_score",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 22,
+        "name": "points",
+        "type_info": "Float8"
+      },
+      {
+        "ordinal": 23,
+        "name": "is_archive",
+        "type_info": "Bool"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2"
+      ]
+    },
+    "nullable": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "86c5ff7f69fc6afc9a37adbc0e92f4e4e056f160c574ba88bb9c23dacf05b14b"
+}

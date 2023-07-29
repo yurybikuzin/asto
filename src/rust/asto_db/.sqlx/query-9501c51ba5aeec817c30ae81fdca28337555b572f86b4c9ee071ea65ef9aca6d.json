@@ -1,0 +1,88 @@
+{
+  "db_name": "PostgreSQL",
+  "query": " select * from export_judgelar($1::smallint) ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "external_id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 2,
+        "name": "last_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 3,
+        "name": "first_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 4,
+        "name": "second_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 5,
+        "name": "nick_name",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 6,
+        "name": "categori",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 7,
+        "name": "assignment_date",
+        "type_info": "Date"
+      },
+      {
+        "ordinal": 8,
+        "name": "club",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 9,
+        "name": "citi",
+        "type_info": "Text"
+      },
+      {
+        "ordinal": 10,
+        "name": "number_of_participation_in_festivals",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 11,
+        "name": "is_archive",
+        "type_info": "Bool"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2"
+      ]
+    },
+    "nullable": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "hash": "9501c51ba5aeec817c30ae81fdca28337555b572f86b4c9ee071ea65ef9aca6d"
+}

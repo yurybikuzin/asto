@@ -1,0 +1,57 @@
+[package]
+name = "asto_common"
+version = "0.16.0"
+# 0.16.0 removed login support
+# 0.15.23 Алексеев: Косьянова, Губанова в D
+# 0.15.22 Станиславская: Кожухова Дарья
+# 0.15.21 Ржевская: переводы
+# 0.15.20 Кандудин: Зиновьев, Русанова в D-класс
+# 0.15.20 Кандудин: Зиновьев, Русанова в D-класс
+# 0.15.19 Алексеев: 5500311 5500308  5500312 5590124
+# 0.15.18 Муравьёва: Вишнякова в Н5-класс
+# 0.15.17 Буров: Макагонова в D
+# 0.15.16 Могилко: Клепиков в Н3
+# 0.15.15 Евсеева, Алиев, взносы
+# 0.15.14 Шляхов, АЛС, взносы
+# 0.15.13 Латина плюс (Кубинка): взнос за 2023; Ржевская: Сулковская в Н5
+# 0.15.12 - Зудикова: оплата,но "наказана" за 2023-02-19 по просьбе Ржевской; Ефимова переведена в Н4 и оплатила
+# 0.15.10 - Горькова, Иванова (Соколов): оплата взносов за 2023, Виноградовские в Н5
+# 0.15.9 - introduced 'fn active', extended params list of 'fn is_beginning'
+# 0.15.8 - Буров: Иващенко в D-класс
+# 0.15.7 - fixed issue with Dancer::is_beginning()
+# 0.15.6 - Ржевская: Фомина в Н5-класс
+# 0.15.5 - Алексеев: Косьянова в E-класс, Шляхов: Лукьянчук Каролина в E-класс
+# 0.15.4 - Кварталова: Васин, Колпакова: E -> D
+# 0.15.3 - Алексеевские (Мечта. Тула): Н4 -> Н5
+# 0.15.2 - Сухорукова::5500245, Горькова::5500217, Иванова::5500225: E -> D
+# 0.15.1 - Щепкина::5500087: E -> D, Осипова::5530136: H4 -> H5
+# 0.14.8 - Куницына::5500093: E -> D
+# 0.14.6 - Палкина | Виноградова: E -> D; added Dancer 'fn {st,la}_class()'
+# 0.9.0 - Commit implemented
+# 0.7.0 - adopted to ipado_*: 0.15.*
+# 0.1.0 - initial
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+chrono = {version = "0.4", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+common_macros2 = { path = "../common_macros2" }
+bincode = "1"
+strum = { version = "0.24", features = ["derive"] } # left 0.24, due to error occurs for 0.25:
+# error: expected `(`
+#   --> asto_common/src/route.rs:25:63
+#    |
+# 25 | #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, strum::EnumDiscriminants)]
+op_mode = { path = "../op_mode" }
+semver = { version = "1", features = ["serde"]}
+flate2 = "1"
+# login_export = { path = "../login_export" }
+lazy_static = "1"
+rmp-serde = "1"
+base64 = "0.21"
+regex = "1"
+once_cell = "1.7"
+

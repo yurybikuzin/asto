@@ -1,0 +1,16 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                delete\n                from event_resultlar\n                where op_mode = $1\n                    and event = add_event($1::smallint\n                        , null::int\n                        , $2::date\n                        , $3::text\n                    )\n            ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Int2",
+        "Date",
+        "Text"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "5c1557b2719c26ffb3e1c8664714f06b22a34c974f9052951f2ae6a2d842023f"
+}

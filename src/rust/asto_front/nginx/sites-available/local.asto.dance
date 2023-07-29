@@ -1,0 +1,29 @@
+server {
+  if ($host = local.asto.dance) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    server_name  local.asto.dance;
+    listen 80;
+    return 404; # managed by Certbot
+}
+
+server {
+  server_name  local.asto.dance;
+    access_log   /var/log/nginx/access.log combined_upstream;
+    error_log   /var/log/nginx/error.log;
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/local.asto.dance/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/local.asto.dance/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+    location ~ ^/(?!local.asto\.dance) {
+      rewrite (.*) /local.asto.dance$1 last;
+    }
+
+    include /home/yb/abc/src/rust/asto_front/include.conf;
+    include /home/yb/abc/src/rust/asto_back/include.conf;
+}
+

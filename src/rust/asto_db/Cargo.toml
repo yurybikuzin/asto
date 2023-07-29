@@ -1,0 +1,44 @@
+[package]
+name = "asto_db"
+version = "0.15.4"
+# 0.15.4 - upgraded sqlx to 0.7
+# 0.15.3 - added (5500001..=5599999).contains(&external_id); debug!("book_numberlar
+# 0.15.2 - added non_registered, participantlar in fn'import_event'
+# 0.15.1 - implemented cache for restored external_id"s in 'fn import_event'
+# 0.15.0 - a100 -> asto
+# 0.13.1 - improved 'fn export_dancers_for_anton'
+# 0.9.0 - Commit implemented
+# 0.7.0 - adopted to ipado_*: 0.15.*
+# 0.2.0 - InitData implemnemnted
+# 0.1.0 - initial
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }
+pool_db = { path = "../pool_db", features = [ "pg" ] }
+sqlx = { version = "0.7", default-features = false, features = [
+    "runtime-tokio",
+    "macros",
+    "postgres",
+    "chrono",
+    "json",
+] }
+asto_common = { path = "../asto_common" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+op_mode = { path = "../op_mode" }
+
+[dev-dependencies]
+dotenv = "0.15"
+pretty_env_logger = "0.5"
+paste = "1"
+lazy_static = "1"
+common_macros2 = { path = "../common_macros2" }
+arrange_millis = { path = "../arrange_millis" }
+bincode = "1"
+op_mode = { path = "../op_mode" }

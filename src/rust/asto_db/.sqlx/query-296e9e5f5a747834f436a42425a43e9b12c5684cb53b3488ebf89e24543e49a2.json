@@ -1,0 +1,36 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                select add_event_result($1::smallint \n                    , add_event($1::smallint\n                        , null::int\n                        , $2::date\n                        , $3::text\n                    )\n                    , add_text($4::text)\n                    , $5::int\n                    , $6::smallint\n                    , $7::smallint\n                    , $8::smallint\n                    , $9::smallint\n                    , $10::smallint\n                    , $11::text\n                    , $12::text\n                    , $13::text\n                    , $14::text\n                    , $15::boolean\n                ) \"id!\"\n            ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id!",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2",
+        "Date",
+        "Text",
+        "Text",
+        "Int4",
+        "Int2",
+        "Int2",
+        "Int2",
+        "Int2",
+        "Int2",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Bool"
+      ]
+    },
+    "nullable": [
+      null
+    ]
+  },
+  "hash": "296e9e5f5a747834f436a42425a43e9b12c5684cb53b3488ebf89e24543e49a2"
+}

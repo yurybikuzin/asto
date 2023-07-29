@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DanceData version="2.1">
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="203" ageCategory="Юниоры-1" programPart="4" participantType="couple">Юниоры-1, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="101" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Максим" lastName="Лазарев" class="E" bookNumber="5500220" birthDay="22.06.2010"/>
+          <Female firstName="Анастасия" lastName="Потехина" class="E" bookNumber="5500221" birthDay="18.07.2010" classIntReg="3" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="111" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Кирилл" lastName="Иващенко" class="E" bookNumber="5500289" birthDay="27.03.2010"/>
+          <Female firstName="София" lastName="Палкина" class="D" bookNumber="5500055" birthDay="02.02.2011" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="107" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Максим" lastName="Гудов" class="E" bookNumber="5500370" birthDay="23.09.2010"/>
+          <Female firstName="София" lastName="Гришина" class="E" bookNumber="5500369" birthDay="30.05.2012" classIntReg="3" classPlace="3" points="0,25"/>
+          <Club city="Москва" name="Авалон" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Азарова" trener1FirstName="Татьяна" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="101" sum="3" place="1"/>
+          <Result n="107" sum="9" place="3"/>
+          <Result n="111" sum="6" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="101" place="1" head="1">1121121</Result>
+            <Result n="107" place="3" head="1">3313312</Result>
+            <Result n="111" place="2" head="1">2232233</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="101" place="1" head="1">1131111</Result>
+            <Result n="107" place="3" head="1">3323332</Result>
+            <Result n="111" place="2" head="1">2212223</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="101" place="1" head="1">1131121</Result>
+            <Result n="107" place="3" head="1">3323312</Result>
+            <Result n="111" place="2" head="1">2212233</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="204" ageCategory="Юниоры-1" programPart="4" participantType="couple">Юниоры-1, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="111" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Кирилл" lastName="Иващенко" class="E" bookNumber="5500289" birthDay="27.03.2010"/>
+          <Female firstName="София" lastName="Палкина" class="D" bookNumber="5500055" birthDay="02.02.2011" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="101" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Максим" lastName="Лазарев" class="E" bookNumber="5500220" birthDay="22.06.2010"/>
+          <Female firstName="Анастасия" lastName="Потехина" class="E" bookNumber="5500221" birthDay="18.07.2010" classIntReg="3" classPlace="2" points="0,5"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="107" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Максим" lastName="Гудов" class="E" bookNumber="5500370" birthDay="23.09.2010"/>
+          <Female firstName="София" lastName="Гришина" class="E" bookNumber="5500369" birthDay="30.05.2012" classIntReg="3" classPlace="3" points="0,25"/>
+          <Club city="Москва" name="Авалон" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Азарова" trener1FirstName="Татьяна" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="На Юго-Западе" category="Четвертая" firstName="Сергей" lastName="Трушин" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="101" sum="5" place="2"/>
+          <Result n="107" sum="9" place="3"/>
+          <Result n="111" sum="4" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="101" place="2" head="1">3233121</Result>
+            <Result n="107" place="3" head="1">2321333</Result>
+            <Result n="111" place="1" head="1">1112212</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="101" place="1" head="1">3211111</Result>
+            <Result n="107" place="3" head="1">2332333</Result>
+            <Result n="111" place="2" head="1">1123222</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="101" place="2" head="1">2212223</Result>
+            <Result n="107" place="3" head="1">3333332</Result>
+            <Result n="111" place="1" head="1">1121111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="205" ageCategory="Юниоры-2" programPart="4" participantType="couple">Юниоры-2, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>2</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="102" place="1" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Сергей" lastName="Рябенко" class="E" bookNumber="5500017" birthDay="22.05.2009"/>
+          <Female firstName="Полина" lastName="Осипова" class="E" bookNumber="5500018" birthDay="22.01.2011" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="103" place="2" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Егор" lastName="Шеховцов" class="E" bookNumber="5500305" birthDay="22.07.2009"/>
+          <Female firstName="Ольга" lastName="Спиридонова" class="E" bookNumber="5500306" birthDay="07.10.2009" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Москва" name="TV-DANCE" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Смирнова" trener1FirstName="Тамара" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="2" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="102" sum="3" place="1"/>
+          <Result n="103" sum="6" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="102" place="1" head="1">2111121</Result>
+            <Result n="103" place="2" head="1">1222212</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="102" place="1" head="1">1111121</Result>
+            <Result n="103" place="2" head="1">2222212</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="102" place="1" head="1">2211111</Result>
+            <Result n="103" place="2" head="1">1122222</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (4 танца)" class="E" no="206" ageCategory="Юниоры-2" programPart="4" participantType="couple">Юниоры-2, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>2</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="103" place="1" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Егор" lastName="Шеховцов" class="E" bookNumber="5500305" birthDay="22.07.2009"/>
+          <Female firstName="Ольга" lastName="Спиридонова" class="E" bookNumber="5500306" birthDay="07.10.2009" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="TV-DANCE" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Смирнова" trener1FirstName="Тамара" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="102" place="2" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Сергей" lastName="Рябенко" class="E" bookNumber="5500017" birthDay="22.05.2009"/>
+          <Female firstName="Полина" lastName="Осипова" class="E" bookNumber="5500018" birthDay="22.01.2011" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Третья" firstName="Игорь" lastName="Могилко" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="На Юго-Западе" category="Четвертая" firstName="Сергей" lastName="Трушин" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="2" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="102" sum="6" place="2"/>
+          <Result n="103" sum="3" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="102" place="2" head="1">2222222</Result>
+            <Result n="103" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="102" place="2" head="1">2222222</Result>
+            <Result n="103" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="102" place="2" head="1">2222122</Result>
+            <Result n="103" place="1" head="1">1111211</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (4 танца)" class="D" no="209" ageCategory="Юниоры-2 + Молодежь" programPart="4" participantType="couple">Юниоры-2 + Молодежь, Европейская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>6</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+        <ClassCount name="D">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="100" place="1" class="D" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Михаил" lastName="Лазарев" class="D" bookNumber="5500106" birthDay="02.08.2007"/>
+          <Female firstName="Дарья" lastName="Гурина" class="D" bookNumber="5500043" birthDay="15.07.2008" classIntReg="3" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="108" place="2" class="D" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Андрей" lastName="Кузин" class="D" bookNumber="5500021" birthDay="18.12.2007"/>
+          <Female firstName="Мария" lastName="Шамаева" class="D" bookNumber="5500022" birthDay="25.08.2008" classIntReg="3" classPlace="2" points="0,5"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="104" place="3" class="D" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Егор" lastName="Ясько" class="D" bookNumber="5500086" birthDay="29.12.2006"/>
+          <Female firstName="Александра" lastName="Щепкина" class="D" bookNumber="5500087" birthDay="29.04.2007" classIntReg="3" classPlace="3" points="0,25"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="103" place="4" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Егор" lastName="Шеховцов" class="E" bookNumber="5500305" birthDay="22.07.2009"/>
+          <Female firstName="Ольга" lastName="Спиридонова" class="E" bookNumber="5500306" birthDay="07.10.2009" classIntReg="3" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="TV-DANCE" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Смирнова" trener1FirstName="Тамара" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="102" place="5" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Сергей" lastName="Рябенко" class="E" bookNumber="5500017" birthDay="22.05.2009"/>
+          <Female firstName="Полина" lastName="Осипова" class="E" bookNumber="5500018" birthDay="22.01.2011" classIntReg="3" classPlace="2" points="0,5"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="105" place="6" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Андрей" lastName="Гавриш" class="E" bookNumber="5500218" birthDay="03.08.2008"/>
+          <Female firstName="Ульяна" lastName="Лебедь" class="E" bookNumber="5500219" birthDay="12.05.2007" classIntReg="3" classPlace="3" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="6" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="100" sum="6" place="1"/>
+          <Result n="102" sum="20" place="5"/>
+          <Result n="103" sum="18" place="4"/>
+          <Result n="104" sum="13" place="3"/>
+          <Result n="105" sum="21" place="6"/>
+          <Result n="108" sum="6" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="100" place="2" head="1">1351231</Result>
+            <Result n="102" place="6" head="1">6525466</Result>
+            <Result n="103" place="5" head="1">5644515</Result>
+            <Result n="104" place="3" head="1">3232352</Result>
+            <Result n="105" place="4" head="1">4466644</Result>
+            <Result n="108" place="1" head="1">2113123</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="100" place="2" head="1">2251231</Result>
+            <Result n="102" place="6" head="1">6336646</Result>
+            <Result n="103" place="4" head="1">4444514</Result>
+            <Result n="104" place="3" head="1">3622352</Result>
+            <Result n="105" place="5" head="1">5565465</Result>
+            <Result n="108" place="1" head="1">1113123</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="100" place="1" head="1">1111141</Result>
+            <Result n="102" place="3" head="1">4443236</Result>
+            <Result n="103" place="5" head="1">6335625</Result>
+            <Result n="104" place="4" head="1">3556353</Result>
+            <Result n="105" place="6" head="1">5664464</Result>
+            <Result n="108" place="2" head="1">2222512</Result>
+          </Dance>
+          <Dance no="4" name="Q">
+            <Result n="100" place="1" head="1">1221131</Result>
+            <Result n="102" place="5" head="1">6555456</Result>
+            <Result n="103" place="4" head="1">5334615</Result>
+            <Result n="104" place="3" head="1">3443343</Result>
+            <Result n="105" place="6" head="1">4666564</Result>
+            <Result n="108" place="2" head="1">2112222</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (4 танца)" class="D" no="210" ageCategory="Юниоры-2 + Молодежь" programPart="4" participantType="couple">Юниоры-2 + Молодежь, Латиноамериканская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>6</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+        <ClassCount name="D">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="103" place="1" class="E" points="2,0" classPlace="1" classIntReg="6">
+          <Male firstName="Егор" lastName="Шеховцов" class="E" bookNumber="5500305" birthDay="22.07.2009"/>
+          <Female firstName="Ольга" lastName="Спиридонова" class="E" bookNumber="5500306" birthDay="07.10.2009" classIntReg="6" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="TV-DANCE" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Смирнова" trener1FirstName="Тамара" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="100" place="2" class="D" points="1,0" classPlace="2" classIntReg="4">
+          <Male firstName="Михаил" lastName="Лазарев" class="D" bookNumber="5500106" birthDay="02.08.2007"/>
+          <Female firstName="Дарья" lastName="Гурина" class="D" bookNumber="5500043" birthDay="15.07.2008" classIntReg="4" classPlace="2" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="104" place="3" class="D" points="0,5" classPlace="3" classIntReg="4">
+          <Male firstName="Егор" lastName="Ясько" class="D" bookNumber="5500086" birthDay="29.12.2006"/>
+          <Female firstName="Александра" lastName="Щепкина" class="D" bookNumber="5500087" birthDay="29.04.2007" classIntReg="4" classPlace="3" points="0,5"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="108" place="4" class="D" points="0,25" classPlace="4" classIntReg="4">
+          <Male firstName="Андрей" lastName="Кузин" class="D" bookNumber="5500021" birthDay="18.12.2007"/>
+          <Female firstName="Мария" lastName="Шамаева" class="D" bookNumber="5500022" birthDay="25.08.2008" classIntReg="4" classPlace="4" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="102" place="5" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Сергей" lastName="Рябенко" class="E" bookNumber="5500017" birthDay="22.05.2009"/>
+          <Female firstName="Полина" lastName="Осипова" class="E" bookNumber="5500018" birthDay="22.01.2011" classIntReg="3" classPlace="2" points="0,5"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="105" place="6" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Андрей" lastName="Гавриш" class="E" bookNumber="5500218" birthDay="03.08.2008"/>
+          <Female firstName="Ульяна" lastName="Лебедь" class="E" bookNumber="5500219" birthDay="12.05.2007" classIntReg="3" classPlace="3" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="На Юго-Западе" category="Четвертая" firstName="Сергей" lastName="Трушин" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="6" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="100" sum="8" place="2"/>
+          <Result n="102" sum="21" place="5"/>
+          <Result n="103" sum="4" place="1"/>
+          <Result n="104" sum="14" place="3"/>
+          <Result n="105" sum="23" place="6"/>
+          <Result n="108" sum="14" place="4"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="100" place="2" head="1">2221511</Result>
+            <Result n="102" place="5" head="1">4554364</Result>
+            <Result n="103" place="1" head="1">1142122</Result>
+            <Result n="104" place="4" head="1">5433433</Result>
+            <Result n="105" place="6" head="1">6665646</Result>
+            <Result n="108" place="3" head="1">3316255</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="100" place="2" head="1">2241311</Result>
+            <Result n="102" place="5" head="1">6454534</Result>
+            <Result n="103" place="1" head="1">1112123</Result>
+            <Result n="104" place="3" head="1">4523452</Result>
+            <Result n="105" place="6" head="1">3665666</Result>
+            <Result n="108" place="4" head="1">5336245</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="100" place="2" head="1">3361311</Result>
+            <Result n="102" place="6" head="1">6646466</Result>
+            <Result n="103" place="1" head="1">2122123</Result>
+            <Result n="104" place="4" head="1">4414542</Result>
+            <Result n="105" place="5" head="1">5555635</Result>
+            <Result n="108" place="3" head="1">1233254</Result>
+          </Dance>
+          <Dance no="4" name="J">
+            <Result n="100" place="2" head="1">2262312</Result>
+            <Result n="102" place="5" head="1">5536636</Result>
+            <Result n="103" place="1" head="1">1121123</Result>
+            <Result n="104" place="3" head="1">3413441</Result>
+            <Result n="105" place="6" head="1">6655565</Result>
+            <Result n="108" place="4" head="1">4344254</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа" class="Открытый" no="211" ageCategory="Юниоры-2 + Молодежь" programPart="4" participantType="couple">Юниоры-2 + Молодежь, Европейская программа (Открытый класс)</Group>
+      <Judges>7</Judges>
+      <Couples>2</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">2</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="108" place="1" class="D" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Андрей" lastName="Кузин" class="D" bookNumber="5500021" birthDay="18.12.2007"/>
+          <Female firstName="Мария" lastName="Шамаева" class="D" bookNumber="5500022" birthDay="25.08.2008" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="100" place="2" class="D" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Михаил" lastName="Лазарев" class="D" bookNumber="5500106" birthDay="02.08.2007"/>
+          <Female firstName="Дарья" lastName="Гурина" class="D" bookNumber="5500043" birthDay="15.07.2008" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="2" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="100" sum="7" place="2"/>
+          <Result n="108" sum="5" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="100" place="1" head="1">1111211</Result>
+            <Result n="108" place="2" head="1">2222122</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="100" place="2" head="1">2121221</Result>
+            <Result n="108" place="1" head="1">1212112</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="100" place="2" head="1">2221212</Result>
+            <Result n="108" place="1" head="1">1112121</Result>
+          </Dance>
+          <Dance no="4" name="Q">
+            <Result n="100" place="2" head="1">2221222</Result>
+            <Result n="108" place="1" head="1">1112111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа" class="Открытый" no="212" ageCategory="Юниоры-2 + Молодежь" programPart="4" participantType="couple">Юниоры-2 + Молодежь, Латиноамериканская программа (Открытый класс)</Group>
+      <Judges>7</Judges>
+      <Couples>2</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">2</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="100" place="1" class="D" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Михаил" lastName="Лазарев" class="D" bookNumber="5500106" birthDay="02.08.2007"/>
+          <Female firstName="Дарья" lastName="Гурина" class="D" bookNumber="5500043" birthDay="15.07.2008" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="108" place="2" class="D" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Андрей" lastName="Кузин" class="D" bookNumber="5500021" birthDay="18.12.2007"/>
+          <Female firstName="Мария" lastName="Шамаева" class="D" bookNumber="5500022" birthDay="25.08.2008" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Юнона" category="Третья" firstName="Игорь" lastName="Могилко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="2" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="5" mode="skating">
+        <Total>
+          <Result n="100" sum="7" place="1"/>
+          <Result n="108" sum="8" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="100" place="1" head="1">2211211</Result>
+            <Result n="108" place="2" head="1">1122122</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="100" place="1" head="1">1111111</Result>
+            <Result n="108" place="2" head="1">2222222</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="100" place="2" head="1">2122221</Result>
+            <Result n="108" place="1" head="1">1211112</Result>
+          </Dance>
+          <Dance no="4" name="P">
+            <Result n="100" place="1" head="1">2121211</Result>
+            <Result n="108" place="2" head="1">1212122</Result>
+          </Dance>
+          <Dance no="5" name="J">
+            <Result n="100" place="2" head="1">2212211</Result>
+            <Result n="108" place="1" head="1">1121122</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="213" ageCategory="Взрослые + Сеньоры" programPart="4" participantType="couple">Взрослые + Сеньоры, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>1</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="88" place="1" class="E" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Андрей" lastName="Степанов" class="E" bookNumber="" birthDay="16.07.1982"/>
+          <Female firstName="Татьяна" lastName="Степанова" class="E" bookNumber="" birthDay="13.04.1982" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Раменское" name="10 ритмов" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Гальцева" trener1FirstName="Дарья" trener2LastName="" trener2FirstName="" country="Россия" regionId="50"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="1" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="88" sum="3" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="88" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="88" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="88" place="1" head="1">1111111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (4 танца)" class="D" no="215" ageCategory="Взрослые + Сеньоры" programPart="4" participantType="couple">Взрослые + Сеньоры, Европейская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="106" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Рубин" lastName="Алиев" class="D" bookNumber="5500252" birthDay="19.08.1965"/>
+          <Female firstName="Елена" lastName="Евсеева" class="D" bookNumber="5500253" birthDay="30.07.1977" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Москва" name="На Юго-Западе" chief1LastName="Муравьева" chief1FirstName="Елена" chief2LastName="" chief2FirstName="" trener1LastName="Муравьёва" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="110" place="2" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Александр" lastName="Ланцевский" class="E" bookNumber="" birthDay="14.12.1974"/>
+          <Female firstName="Дарья" lastName="Звездкина" class="E" bookNumber="" birthDay="19.07.1980" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Раменское" name="10 ритмов" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="50"/>
+        </Couple>
+        <Couple n="109" place="3" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Алексей" lastName="Степанов" class="E" bookNumber="" birthDay="08.01.1982"/>
+          <Female firstName="Дарья" lastName="Болтенко" class="E" bookNumber="" birthDay="13.01.1982" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Раменское" name="10 ритмов" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="50"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="106" sum="4" place="1"/>
+          <Result n="109" sum="11" place="3"/>
+          <Result n="110" sum="9" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="106" place="1" head="1">1113212</Result>
+            <Result n="109" place="3" head="1">3332333</Result>
+            <Result n="110" place="2" head="1">2221121</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="106" place="1" head="1">2113112</Result>
+            <Result n="109" place="3" head="1">3332333</Result>
+            <Result n="110" place="2" head="1">1221221</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="106" place="1" head="1">1212111</Result>
+            <Result n="109" place="3" head="1">2331323</Result>
+            <Result n="110" place="2" head="1">3123232</Result>
+          </Dance>
+          <Dance no="4" name="Q">
+            <Result n="106" place="1" head="1">1111111</Result>
+            <Result n="109" place="2" head="1">2232322</Result>
+            <Result n="110" place="3" head="1">3323233</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (4 танца)" class="D" no="216" ageCategory="Взрослые + Сеньоры" programPart="4" participantType="couple">Взрослые + Сеньоры, Латиноамериканская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="106" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Рубин" lastName="Алиев" class="D" bookNumber="5500252" birthDay="19.08.1965"/>
+          <Female firstName="Елена" lastName="Евсеева" class="D" bookNumber="5500253" birthDay="30.07.1977" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Москва" name="На Юго-Западе" chief1LastName="Муравьева" chief1FirstName="Елена" chief2LastName="" chief2FirstName="" trener1LastName="Муравьёва" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="110" place="2" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Александр" lastName="Ланцевский" class="E" bookNumber="" birthDay="14.12.1974"/>
+          <Female firstName="Дарья" lastName="Звездкина" class="E" bookNumber="" birthDay="19.07.1980" classIntReg="2" classPlace="1" points="1,0"/>
+          <Club city="Раменское" name="10 ритмов" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="50"/>
+        </Couple>
+        <Couple n="109" place="3" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Алексей" lastName="Степанов" class="E" bookNumber="" birthDay="08.01.1982"/>
+          <Female firstName="Дарья" lastName="Болтенко" class="E" bookNumber="" birthDay="13.01.1982" classIntReg="2" classPlace="2" points="0,25"/>
+          <Club city="Раменское" name="10 ритмов" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="50"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="На Юго-Западе" category="Четвертая" firstName="Сергей" lastName="Трушин" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="106" sum="4" place="1"/>
+          <Result n="109" sum="12" place="3"/>
+          <Result n="110" sum="8" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="106" place="1" head="1">1111121</Result>
+            <Result n="109" place="3" head="1">3333332</Result>
+            <Result n="110" place="2" head="1">2222213</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="106" place="1" head="1">1111121</Result>
+            <Result n="109" place="3" head="1">2333333</Result>
+            <Result n="110" place="2" head="1">3222212</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="106" place="1" head="1">1121121</Result>
+            <Result n="109" place="3" head="1">3333332</Result>
+            <Result n="110" place="2" head="1">2212213</Result>
+          </Dance>
+          <Dance no="4" name="J">
+            <Result n="106" place="1" head="1">1111121</Result>
+            <Result n="109" place="3" head="1">2333333</Result>
+            <Result n="110" place="2" head="1">3222212</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа" class="Открытый" no="217" ageCategory="Взрослые + Сеньоры" programPart="4" participantType="couple">Взрослые + Сеньоры, Европейская программа (Открытый класс)</Group>
+      <Judges>7</Judges>
+      <Couples>1</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="106" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Рубин" lastName="Алиев" class="D" bookNumber="5500252" birthDay="19.08.1965"/>
+          <Female firstName="Елена" lastName="Евсеева" class="D" bookNumber="5500253" birthDay="30.07.1977" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Москва" name="На Юго-Западе" chief1LastName="Муравьева" chief1FirstName="Елена" chief2LastName="" chief2FirstName="" trener1LastName="Муравьёва" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Виктор" lastName="Буров" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Аста" category="Третья" firstName="Елена" lastName="Ржевская" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="1" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="5" mode="skating">
+        <Total>
+          <Result n="106" sum="5" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="4" name="F">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="5" name="Q">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа" class="Открытый" no="218" ageCategory="Взрослые + Сеньоры" programPart="4" participantType="couple">Взрослые + Сеньоры, Латиноамериканская программа (Открытый класс)</Group>
+      <Judges>7</Judges>
+      <Couples>1</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="106" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Рубин" lastName="Алиев" class="D" bookNumber="5500252" birthDay="19.08.1965"/>
+          <Female firstName="Елена" lastName="Евсеева" class="D" bookNumber="5500253" birthDay="30.07.1977" classIntReg="1" classPlace="1" points="0,5"/>
+          <Club city="Москва" name="На Юго-Западе" chief1LastName="Муравьева" chief1FirstName="Елена" chief2LastName="" chief2FirstName="" trener1LastName="Муравьёва" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Юнона" category="Третья" firstName="Игорь" lastName="Могилко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="ТВ Данс" category="Вторая" firstName="Тамара" lastName="Смирнова" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="1" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="5" mode="skating">
+        <Total>
+          <Result n="106" sum="5" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="4" name="P">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="5" name="J">
+            <Result n="106" place="1" head="1">1111111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="219" ageCategory="Дети-1" programPart="5" participantType="solo">Соло, Дети-1, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>4</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">4</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="94" place="1" class="E" points="2,0" classPlace="1" classIntReg="4">
+          <Male firstName="Полина" lastName="Косьянова" class="E" bookNumber="5590122" birthDay="19.02.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="91" place="2" class="E" points="1,0" classPlace="2" classIntReg="4">
+          <Male firstName="Анна" lastName="Пищева" class="E" bookNumber="" birthDay="01.01.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Лосино-Петровский" name="Звездный Горизонт" chief1LastName="Гончар" chief1FirstName="Игорь" chief2LastName="" chief2FirstName="" trener1LastName="Гончар" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия"/>
+        </Couple>
+        <Couple n="99" place="3" class="E" points="0,5" classPlace="3" classIntReg="4">
+          <Male firstName="Елизавета" lastName="Палкина" class="E" bookNumber="5500293" birthDay="25.04.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="92" place="4" class="E" points="0,25" classPlace="4" classIntReg="4">
+          <Male firstName="Даниэла" lastName="Дейкун" class="E" bookNumber="5500294" birthDay="27.03.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Фестиваль" category="6К" firstName="Елена" lastName="Ипатова" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="4" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="91" sum="6" place="2"/>
+          <Result n="92" sum="12" place="4"/>
+          <Result n="94" sum="3" place="1"/>
+          <Result n="99" sum="9" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="91" place="2" head="1">4322423</Result>
+            <Result n="92" place="4" head="1">2143244</Result>
+            <Result n="94" place="1" head="1">1211111</Result>
+            <Result n="99" place="3" head="1">3434332</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="91" place="2" head="1">2412413</Result>
+            <Result n="92" place="4" head="1">4243344</Result>
+            <Result n="94" place="1" head="1">1121121</Result>
+            <Result n="99" place="3" head="1">3334232</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="91" place="2" head="1">2212221</Result>
+            <Result n="92" place="4" head="1">4344344</Result>
+            <Result n="94" place="1" head="1">1121112</Result>
+            <Result n="99" place="3" head="1">3433433</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="220" ageCategory="Дети-1" programPart="5" participantType="solo">Соло, Дети-1, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>6</Judges>
+      <Couples>5</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">5</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="91" place="1" class="E" points="2,0" classPlace="1" classIntReg="5">
+          <Male firstName="Анна" lastName="Пищева" class="E" bookNumber="" birthDay="01.01.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Лосино-Петровский" name="Звездный Горизонт" chief1LastName="Гончар" chief1FirstName="Игорь" chief2LastName="" chief2FirstName="" trener1LastName="Гончар" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия"/>
+        </Couple>
+        <Couple n="94" place="2" class="E" points="1,0" classPlace="2" classIntReg="5">
+          <Male firstName="Полина" lastName="Косьянова" class="E" bookNumber="5590122" birthDay="19.02.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="92" place="3" class="E" points="0,5" classPlace="3" classIntReg="5">
+          <Male firstName="Даниэла" lastName="Дейкун" class="E" bookNumber="5500294" birthDay="27.03.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="124" place="4" class="E" points="0,5" classPlace="4" classIntReg="5">
+          <Male firstName="Надежда" lastName="Смаженная" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="99" place="5" class="E" points="0,25" classPlace="5" classIntReg="5">
+          <Male firstName="Елизавета" lastName="Палкина" class="E" bookNumber="5500293" birthDay="25.04.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="5" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="91" sum="3" place="1"/>
+          <Result n="92" sum="9" place="3"/>
+          <Result n="94" sum="8" place="2"/>
+          <Result n="99" sum="15" place="5"/>
+          <Result n="124" sum="10" place="4"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="91" place="1" head="1">222112</Result>
+            <Result n="92" place="4" head="1">544334</Result>
+            <Result n="94" place="3" head="1">131541</Result>
+            <Result n="99" place="5" head="1">455455</Result>
+            <Result n="124" place="2" head="1">313223</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="91" place="1" head="1">321111</Result>
+            <Result n="92" place="3" head="1">243243</Result>
+            <Result n="94" place="2" head="1">132322</Result>
+            <Result n="99" place="5" head="1">555555</Result>
+            <Result n="124" place="4" head="1">414434</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="91" place="1" head="1">321111</Result>
+            <Result n="92" place="2" head="1">232232</Result>
+            <Result n="94" place="3" head="1">153323</Result>
+            <Result n="99" place="5" head="1">545545</Result>
+            <Result n="124" place="4" head="1">414454</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="221" ageCategory="Дети-2" programPart="5" participantType="solo">Соло, Дети-2, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>6</Judges>
+      <Couples>7</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="H">2</ClassCount>
+        <ClassCount name="E">5</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="114" place="1" class="H" points="2,0" classPlace="1" classIntReg="7">
+          <Male firstName="Маргарита" lastName="Губанова" class="H" bookNumber="5590119" birthDay="20.06.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="118" place="2" class="H" points="1,0" classPlace="2" classIntReg="7">
+          <Male firstName="Рада" lastName="Чечуй" class="H" bookNumber="5500302" birthDay="11.08.2013"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Могилко" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="116" place="3" class="E" points="1,0" classPlace="3" classIntReg="7">
+          <Male firstName="Анна" lastName="Иванова" class="E" bookNumber="5500318" birthDay="30.07.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Шляхов" trener1FirstName="Сергей" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="89" place="4" class="E" points="0,5" classPlace="4" classIntReg="7">
+          <Male firstName="Каролина" lastName="Лукьянчук" class="E" bookNumber="5500320" birthDay="29.10.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="0,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Шляхов" trener1FirstName="Сергей" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="98" place="5" class="E" points="0,5" classPlace="5" classIntReg="7">
+          <Male firstName="Элина" lastName="Азимова" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="122" place="6" class="E" points="0,5" classPlace="6" classIntReg="7">
+          <Male firstName="Екатерина" lastName="Гусева" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="117" place="7" class="E" points="0,25" classPlace="7" classIntReg="7">
+          <Male firstName="Яна" lastName="Гордеева" class="E" bookNumber="5500371" birthDay="06.02.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="7" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="89" sum="14" place="4"/>
+          <Result n="98" sum="16" place="5"/>
+          <Result n="114" sum="3" place="1"/>
+          <Result n="116" sum="10,5" place="3"/>
+          <Result n="117" sum="16,5" place="7"/>
+          <Result n="118" sum="8" place="2"/>
+          <Result n="122" sum="16" place="6"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="89" place="5" head="1">737533</Result>
+            <Result n="98" place="6" head="1">542646</Result>
+            <Result n="114" place="1" head="1">121111</Result>
+            <Result n="116" place="2,5" head="1">475224</Result>
+            <Result n="117" place="2,5" head="1">254472</Result>
+            <Result n="118" place="4" head="1">613355</Result>
+            <Result n="122" place="7" head="1">366767</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="89" place="6" head="1">635565</Result>
+            <Result n="98" place="5" head="1">744456</Result>
+            <Result n="114" place="1" head="1">121131</Result>
+            <Result n="116" place="4" head="1">357224</Result>
+            <Result n="117" place="7" head="1">476777</Result>
+            <Result n="118" place="2" head="1">512342</Result>
+            <Result n="122" place="3" head="1">263613</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="89" place="3" head="1">533633</Result>
+            <Result n="98" place="5" head="1">754456</Result>
+            <Result n="114" place="1" head="1">141111</Result>
+            <Result n="116" place="4" head="1">225245</Result>
+            <Result n="117" place="7" head="1">676777</Result>
+            <Result n="118" place="2" head="1">312522</Result>
+            <Result n="122" place="6" head="1">467364</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="222" ageCategory="Дети-2" programPart="5" participantType="solo">Соло, Дети-2, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>8</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="H">3</ClassCount>
+        <ClassCount name="E">5</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="114" place="1" class="H" points="3,0" classPlace="1" classIntReg="8">
+          <Male firstName="Маргарита" lastName="Губанова" class="H" bookNumber="5590119" birthDay="20.06.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="118" place="2" class="H" points="2,0" classPlace="2" classIntReg="8">
+          <Male firstName="Рада" lastName="Чечуй" class="H" bookNumber="5500302" birthDay="11.08.2013"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Могилко" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="117" place="3" class="E" points="1,0" classPlace="3" classIntReg="7">
+          <Male firstName="Яна" lastName="Гордеева" class="E" bookNumber="5500371" birthDay="06.02.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="116" place="4" class="E" points="0,5" classPlace="4" classIntReg="7">
+          <Male firstName="Анна" lastName="Иванова" class="E" bookNumber="5500318" birthDay="30.07.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Шляхов" trener1FirstName="Сергей" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="122" place="5" class="E" points="0,5" classPlace="5" classIntReg="7">
+          <Male firstName="Екатерина" lastName="Гусева" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="113" place="6" class="H" points="0,5" classPlace="3" classIntReg="5">
+          <Male firstName="Степан" lastName="Панюшкин" class="H" bookNumber="5590124" birthDay="12.08.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="98" place="7" class="E" points="0,5" classPlace="7" classIntReg="8">
+          <Male firstName="Элина" lastName="Азимова" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="89" place="8" class="E" points="0,25" classPlace="8" classIntReg="8">
+          <Male firstName="Каролина" lastName="Лукьянчук" class="E" bookNumber="5500320" birthDay="29.10.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="0,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Шляхов" trener1FirstName="Сергей" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Фестиваль" category="6К" firstName="Елена" lastName="Ипатова" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="8" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="89" sum="23" place="8"/>
+          <Result n="98" sum="18" place="7"/>
+          <Result n="113" sum="17" place="6"/>
+          <Result n="114" sum="3" place="1"/>
+          <Result n="116" sum="14" place="4"/>
+          <Result n="117" sum="12" place="3"/>
+          <Result n="118" sum="6" place="2"/>
+          <Result n="122" sum="15" place="5"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="89" place="8" head="1">6888678</Result>
+            <Result n="98" place="7" head="1">7273765</Result>
+            <Result n="113" place="3" head="1">2466134</Result>
+            <Result n="114" place="1" head="1">1531211</Result>
+            <Result n="116" place="6" head="1">5655487</Result>
+            <Result n="117" place="5" head="1">4727853</Result>
+            <Result n="118" place="2" head="1">3312342</Result>
+            <Result n="122" place="4" head="1">8144526</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="89" place="8" head="1">5878278</Result>
+            <Result n="98" place="7" head="1">8766867</Result>
+            <Result n="113" place="6" head="1">4284786</Result>
+            <Result n="114" place="1" head="1">1321511</Result>
+            <Result n="116" place="3" head="1">2433435</Result>
+            <Result n="117" place="4" head="1">3647622</Result>
+            <Result n="118" place="2" head="1">7512153</Result>
+            <Result n="122" place="5" head="1">6155344</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="89" place="7" head="1">2881368</Result>
+            <Result n="98" place="4" head="1">5635784</Result>
+            <Result n="113" place="8" head="1">4773827</Result>
+            <Result n="114" place="1" head="1">1222511</Result>
+            <Result n="116" place="5" head="1">8544675</Result>
+            <Result n="117" place="3" head="1">7458442</Result>
+            <Result n="118" place="2" head="1">3316133</Result>
+            <Result n="122" place="6" head="1">6167256</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="223" ageCategory="Юниоры-1" programPart="5" participantType="solo">Соло, Юниоры-1, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>6</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="93" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Доминика" lastName="Дейкун" class="E" bookNumber="5500288" birthDay="08.06.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="115" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Вероника" lastName="Макагонова" class="E" bookNumber="5500211" birthDay="13.10.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="97" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Василиса" lastName="Шакалова" class="E" bookNumber="5500343" birthDay="03.09.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Ануфриева" trener1FirstName="Марина" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="93" sum="3" place="1"/>
+          <Result n="97" sum="9" place="3"/>
+          <Result n="115" sum="6" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="93" place="1" head="1">111111</Result>
+            <Result n="97" place="3" head="1">333232</Result>
+            <Result n="115" place="2" head="1">222323</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="93" place="1" head="1">111111</Result>
+            <Result n="97" place="3" head="1">333333</Result>
+            <Result n="115" place="2" head="1">222222</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="93" place="1" head="1">211111</Result>
+            <Result n="97" place="3" head="1">333232</Result>
+            <Result n="115" place="2" head="1">122323</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="224" ageCategory="Юниоры-1" programPart="5" participantType="solo">Соло, Юниоры-1, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="93" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Доминика" lastName="Дейкун" class="E" bookNumber="5500288" birthDay="08.06.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="97" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Василиса" lastName="Шакалова" class="E" bookNumber="5500343" birthDay="03.09.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Ануфриева" trener1FirstName="Марина" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="115" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Вероника" lastName="Макагонова" class="E" bookNumber="5500211" birthDay="13.10.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Фестиваль" category="6К" firstName="Елена" lastName="Ипатова" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="93" sum="3" place="1"/>
+          <Result n="97" sum="7" place="2"/>
+          <Result n="115" sum="8" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="93" place="1" head="1">1211111</Result>
+            <Result n="97" place="2" head="1">3132222</Result>
+            <Result n="115" place="3" head="1">2323333</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="93" place="1" head="1">1111111</Result>
+            <Result n="97" place="2" head="1">2233232</Result>
+            <Result n="115" place="3" head="1">3322323</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="93" place="1" head="1">1111111</Result>
+            <Result n="97" place="3" head="1">3232332</Result>
+            <Result n="115" place="2" head="1">2323223</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="225" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="112" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Михаил" lastName="Городецкий" class="E" bookNumber="5500254" birthDay="21.12.2006"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="ДК Прожектор" chief1LastName="Соколов" chief1FirstName="Александр" chief2LastName="" chief2FirstName="" trener1LastName="Соколов" trener1FirstName="Александр" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="123" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Виктория" lastName="Савенюк" class="E" bookNumber="5500006" birthDay="27.03.2009"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Ануфриева" trener1FirstName="Марина" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="121" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Мария" lastName="Зудикова" class="E" bookNumber="5500251" birthDay="03.04.2007"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Фестиваль" category="6К" firstName="Елена" lastName="Ипатова" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="Супер" category="6К" firstName="Майя" lastName="Станиславская" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="112" sum="3" place="1"/>
+          <Result n="121" sum="8" place="3"/>
+          <Result n="123" sum="7" place="2"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="112" place="1" head="1">3121121</Result>
+            <Result n="121" place="2" head="1">2312212</Result>
+            <Result n="123" place="3" head="1">1233333</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="112" place="1" head="1">1111111</Result>
+            <Result n="121" place="3" head="1">3332323</Result>
+            <Result n="123" place="2" head="1">2223232</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="112" place="1" head="1">2111131</Result>
+            <Result n="121" place="3" head="1">3322223</Result>
+            <Result n="123" place="2" head="1">1233312</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="226" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>6</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="121" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Мария" lastName="Зудикова" class="E" bookNumber="5500251" birthDay="03.04.2007"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="112" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Михаил" lastName="Городецкий" class="E" bookNumber="5500254" birthDay="21.12.2006"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="ДК Прожектор" chief1LastName="Соколов" chief1FirstName="Александр" chief2LastName="" chief2FirstName="" trener1LastName="Соколов" trener1FirstName="Александр" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="123" place="3" class="E" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Виктория" lastName="Савенюк" class="E" bookNumber="5500006" birthDay="27.03.2009"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Ануфриева" trener1FirstName="Марина" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Прометей-Гранд" category="6К" firstName="Елена" lastName="Бондаренко" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="112" sum="6" place="2"/>
+          <Result n="121" sum="3" place="1"/>
+          <Result n="123" sum="9" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="112" place="2" head="1">311231</Result>
+            <Result n="121" place="1" head="1">222122</Result>
+            <Result n="123" place="3" head="1">133313</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="112" place="2" head="1">321231</Result>
+            <Result n="121" place="1" head="1">112112</Result>
+            <Result n="123" place="3" head="1">233323</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="112" place="2" head="1">331221</Result>
+            <Result n="121" place="1" head="1">212112</Result>
+            <Result n="123" place="3" head="1">123333</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (4 танца)" class="D" no="227" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Европейская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>5</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="95" place="1" class="D" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Анастасия" lastName="Терзинова" class="D" bookNumber="5500030" birthDay="10.07.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="96" place="2" class="D" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Алина" lastName="Андриянова" class="D" bookNumber="" birthDay="01.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="120" place="3" class="D" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Варвара" lastName="Смирнова" class="D" bookNumber="5500007" birthDay="30.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="119" place="4" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Серафима" lastName="Куницына" class="E" bookNumber="5500093" birthDay="09.10.2009"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Супер" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Станиславская" trener1FirstName="Майя" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="121" place="5" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Мария" lastName="Зудикова" class="E" bookNumber="5500251" birthDay="03.04.2007"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="5" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="95" sum="4" place="1"/>
+          <Result n="96" sum="11" place="2"/>
+          <Result n="119" sum="17" place="4"/>
+          <Result n="120" sum="11" place="3"/>
+          <Result n="121" sum="17" place="5"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="95" place="1" head="1">1152221</Result>
+            <Result n="96" place="4" head="1">2441344</Result>
+            <Result n="119" place="5" head="1">4524155</Result>
+            <Result n="120" place="2" head="1">3213412</Result>
+            <Result n="121" place="3" head="1">5335533</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="95" place="1" head="1">1123411</Result>
+            <Result n="96" place="2" head="1">2212343</Result>
+            <Result n="119" place="5" head="1">3551155</Result>
+            <Result n="120" place="3" head="1">4444222</Result>
+            <Result n="121" place="4" head="1">5335534</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="95" place="1" head="1">1112211</Result>
+            <Result n="96" place="2" head="1">2253332</Result>
+            <Result n="119" place="3" head="1">3521155</Result>
+            <Result n="120" place="4" head="1">4434424</Result>
+            <Result n="121" place="5" head="1">5345543</Result>
+          </Dance>
+          <Dance no="4" name="Q">
+            <Result n="95" place="1" head="1">1111211</Result>
+            <Result n="96" place="3" head="1">2452433</Result>
+            <Result n="119" place="4" head="1">4523145</Result>
+            <Result n="120" place="2" head="1">3234322</Result>
+            <Result n="121" place="5" head="1">5345554</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (4 танца)" class="D" no="228" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Латиноамериканская программа (4 танца) (до Д класса)</Group>
+      <Judges>6</Judges>
+      <Couples>5</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="95" place="1" class="D" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Анастасия" lastName="Терзинова" class="D" bookNumber="5500030" birthDay="10.07.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="120" place="2" class="D" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Варвара" lastName="Смирнова" class="D" bookNumber="5500007" birthDay="30.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="96" place="3" class="D" points="0,25" classPlace="3" classIntReg="3">
+          <Male firstName="Алина" lastName="Андриянова" class="D" bookNumber="" birthDay="01.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="119" place="4" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Серафима" lastName="Куницына" class="E" bookNumber="5500093" birthDay="09.10.2009"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Супер" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Станиславская" trener1FirstName="Майя" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="121" place="5" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Мария" lastName="Зудикова" class="E" bookNumber="5500251" birthDay="03.04.2007"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="5" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="95" sum="5" place="1"/>
+          <Result n="96" sum="11,5" place="3"/>
+          <Result n="119" sum="13,5" place="4"/>
+          <Result n="120" sum="10" place="2"/>
+          <Result n="121" sum="20" place="5"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="95" place="1" head="1">122422</Result>
+            <Result n="96" place="2" head="1">233235</Result>
+            <Result n="119" place="4" head="1">554114</Result>
+            <Result n="120" place="3" head="1">311341</Result>
+            <Result n="121" place="5" head="1">445553</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="95" place="2" head="1">122322</Result>
+            <Result n="96" place="3,5" head="1">434234</Result>
+            <Result n="119" place="3,5" head="1">543413</Result>
+            <Result n="120" place="1" head="1">211141</Result>
+            <Result n="121" place="5" head="1">355555</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="95" place="1" head="1">211321</Result>
+            <Result n="96" place="4" head="1">434134</Result>
+            <Result n="119" place="3" head="1">343213</Result>
+            <Result n="120" place="2" head="1">122542</Result>
+            <Result n="121" place="5" head="1">555455</Result>
+          </Dance>
+          <Dance no="4" name="J">
+            <Result n="95" place="1" head="1">311321</Result>
+            <Result n="96" place="2" head="1">433134</Result>
+            <Result n="119" place="3" head="1">255213</Result>
+            <Result n="120" place="4" head="1">122442</Result>
+            <Result n="121" place="5" head="1">544555</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа" class="Открытый" no="229" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Европейская программа (Открытый класс)</Group>
+      <Judges>7</Judges>
+      <Couples>1</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="120" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Варвара" lastName="Смирнова" class="D" bookNumber="5500007" birthDay="30.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="1" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="5" mode="skating">
+        <Total>
+          <Result n="120" sum="5" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="120" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="120" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="120" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="4" name="F">
+            <Result n="120" place="1" head="1">1111111</Result>
+          </Dance>
+          <Dance no="5" name="Q">
+            <Result n="120" place="1" head="1">1111111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа" class="Открытый" no="230" ageCategory="Юниоры-2 + Молодежь" programPart="5" participantType="solo">Соло, Юниоры-2 + Молодежь, Латиноамериканская программа (Открытый класс)</Group>
+      <Judges>6</Judges>
+      <Couples>1</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="120" place="1" class="D" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Варвара" lastName="Смирнова" class="D" bookNumber="5500007" birthDay="30.01.2008"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Аста" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Ржевская" trener1FirstName="Елена" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="1" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="5" mode="skating">
+        <Total>
+          <Result n="120" sum="5" place="1"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="120" place="1" head="1">111111</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="120" place="1" head="1">111111</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="120" place="1" head="1">111111</Result>
+          </Dance>
+          <Dance no="4" name="P">
+            <Result n="120" place="1" head="1">111111</Result>
+          </Dance>
+          <Dance no="5" name="J">
+            <Result n="120" place="1" head="1">111111</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (4 танца)" class="D" no="231" ageCategory="Юниоры 2+1" programPart="5" participantType="solo">Соло, Юниоры 2+1, Европейская программа (4 танца) (до Д класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="93" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Доминика" lastName="Дейкун" class="E" bookNumber="5500288" birthDay="08.06.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="90" place="2" class="D" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Таисия" lastName="Титова" class="D" bookNumber="5500177" birthDay="02.07.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="115" place="3" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Вероника" lastName="Макагонова" class="E" bookNumber="5500211" birthDay="13.10.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="90" sum="8" place="2"/>
+          <Result n="93" sum="4" place="1"/>
+          <Result n="115" sum="12" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="90" place="2" head="1">1212122</Result>
+            <Result n="93" place="1" head="1">2121211</Result>
+            <Result n="115" place="3" head="1">3333333</Result>
+          </Dance>
+          <Dance no="2" name="T">
+            <Result n="90" place="2" head="1">1323232</Result>
+            <Result n="93" place="1" head="1">2111111</Result>
+            <Result n="115" place="3" head="1">3232323</Result>
+          </Dance>
+          <Dance no="3" name="V">
+            <Result n="90" place="2" head="1">1323222</Result>
+            <Result n="93" place="1" head="1">2111111</Result>
+            <Result n="115" place="3" head="1">3232333</Result>
+          </Dance>
+          <Dance no="4" name="Q">
+            <Result n="90" place="2" head="1">1223222</Result>
+            <Result n="93" place="1" head="1">2111111</Result>
+            <Result n="115" place="3" head="1">3332333</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (4 танца)" class="D" no="232" ageCategory="Юниоры 2+1" programPart="5" participantType="solo">Соло, Юниоры 2+1, Латиноамериканская программа (4 танца) (до Д класса)</Group>
+      <Judges>6</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="E">2</ClassCount>
+        <ClassCount name="D">1</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="93" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Доминика" lastName="Дейкун" class="E" bookNumber="5500288" birthDay="08.06.2010"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="90" place="2" class="D" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Таисия" lastName="Титова" class="D" bookNumber="5500177" birthDay="02.07.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+        <Couple n="115" place="3" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Вероника" lastName="Макагонова" class="E" bookNumber="5500211" birthDay="13.10.2011"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="Юнона" chief1LastName="Буров" chief1FirstName="Виктор" chief2LastName="" chief2FirstName="" trener1LastName="Буров" trener1FirstName="Виктор" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Тула" club="Мечта" category="Третья" firstName="Эльдар" lastName="Алексеев" fatherName="" country="Тула"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="4" mode="skating">
+        <Total>
+          <Result n="90" sum="6" place="2"/>
+          <Result n="93" sum="6" place="1"/>
+          <Result n="115" sum="12" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="90" place="2" head="1">222232</Result>
+            <Result n="93" place="1" head="1">111111</Result>
+            <Result n="115" place="3" head="1">333323</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="90" place="1,5" head="1">312221</Result>
+            <Result n="93" place="1,5" head="1">121112</Result>
+            <Result n="115" place="3" head="1">233333</Result>
+          </Dance>
+          <Dance no="3" name="R">
+            <Result n="90" place="1,5" head="1">112221</Result>
+            <Result n="93" place="1,5" head="1">221112</Result>
+            <Result n="115" place="3" head="1">333333</Result>
+          </Dance>
+          <Dance no="4" name="J">
+            <Result n="90" place="1" head="1">112121</Result>
+            <Result n="93" place="2" head="1">221212</Result>
+            <Result n="115" place="3" head="1">333333</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Европейская программа (3 танца)" class="E" no="235" ageCategory="Дети 2+1" programPart="5" participantType="solo">Соло, Дети 2+1, Европейская программа (3 танца) (до E класса)</Group>
+      <Judges>7</Judges>
+      <Couples>3</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="H">1</ClassCount>
+        <ClassCount name="E">2</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="91" place="1" class="E" points="1,0" classPlace="1" classIntReg="2">
+          <Male firstName="Анна" lastName="Пищева" class="E" bookNumber="" birthDay="01.01.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="3" classPlace="1" points="2,0"/>
+          <Club city="Лосино-Петровский" name="Звездный Горизонт" chief1LastName="Гончар" chief1FirstName="Игорь" chief2LastName="" chief2FirstName="" trener1LastName="Гончар" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия"/>
+        </Couple>
+        <Couple n="94" place="2" class="E" points="0,25" classPlace="2" classIntReg="2">
+          <Male firstName="Полина" lastName="Косьянова" class="E" bookNumber="5590122" birthDay="19.02.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="2" classPlace="1" points="2,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="114" place="3" class="H" points="0,5" classPlace="1" classIntReg="1">
+          <Male firstName="Маргарита" lastName="Губанова" class="H" bookNumber="5590119" birthDay="20.06.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="A(1)" bookNumber="" city="Москва" club="Юнона" category="Вторая" firstName="Марина" lastName="Ануфриева" fatherName="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Фокс" category="Третья" firstName="Ирина" lastName="Гаврикова" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="3" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="91" sum="3,5" place="1"/>
+          <Result n="94" sum="5,5" place="2"/>
+          <Result n="114" sum="9" place="3"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="W">
+            <Result n="91" place="1" head="1">2131222</Result>
+            <Result n="94" place="2" head="1">3212131</Result>
+            <Result n="114" place="3" head="1">1323313</Result>
+          </Dance>
+          <Dance no="2" name="V">
+            <Result n="91" place="1,5" head="1">3131212</Result>
+            <Result n="94" place="1,5" head="1">2312131</Result>
+            <Result n="114" place="3" head="1">1223323</Result>
+          </Dance>
+          <Dance no="3" name="Q">
+            <Result n="91" place="1" head="1">2131112</Result>
+            <Result n="94" place="2" head="1">3312231</Result>
+            <Result n="114" place="3" head="1">1223323</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+  <GroupData>
+    <Header language="Russian">
+      <Title status="Рейтинговое соревнование" dateComp="19.02.2023" compDate="19.02.2023">Звездный Бал - 2023</Title>
+      <City>Москва</City>
+      <Organizer>10 ритмов, Хлебутина Елена</Organizer>
+      <Initiator>ФТС Москвы </Initiator>
+      <Country>Россия</Country>
+      <RegionID>77</RegionID>
+      <Chief>Хлебутина Елена,  </Chief>
+      <Scrutineer email="vadim999-84@mail.ru">Демидов Вадим Николаевич</Scrutineer>
+      <Program developer="Кривощеков Дмитрий, г. Новосибирск" email="skate@ballroom.ru" useremail="vadim999-84@mail.ru" user="Демидов Вадим Николаевич, г. Москва" version="5 (04.04.2019)">Skating System</Program>
+      <Group program="Латиноамериканская программа (3 танца)" class="E" no="236" ageCategory="Дети 2+1" programPart="5" participantType="solo">Соло, Дети 2+1, Латиноамериканская программа (3 танца) (до E класса)</Group>
+      <Judges>6</Judges>
+      <Couples>5</Couples>
+    </Header>
+    <Registration>
+      <ClassRegistration>
+        <ClassCount name="H">2</ClassCount>
+        <ClassCount name="E">3</ClassCount>
+      </ClassRegistration>
+      <Couples>
+        <Couple n="94" place="1" class="E" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Полина" lastName="Косьянова" class="E" bookNumber="5590122" birthDay="19.02.2014"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="5" classPlace="1" points="4,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="91" place="2" class="E" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Анна" lastName="Пищева" class="E" bookNumber="" birthDay="01.01.2013"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="4" classPlace="1" points="4,0"/>
+          <Club city="Лосино-Петровский" name="Звездный Горизонт" chief1LastName="Гончар" chief1FirstName="Игорь" chief2LastName="" chief2FirstName="" trener1LastName="Гончар" trener1FirstName="Игорь" trener2LastName="" trener2FirstName="" country="Россия"/>
+        </Couple>
+        <Couple n="113" place="3" class="H" points="1,0" classPlace="1" classIntReg="3">
+          <Male firstName="Степан" lastName="Панюшкин" class="H" bookNumber="5590124" birthDay="12.08.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="114" place="4" class="H" points="0,5" classPlace="2" classIntReg="3">
+          <Male firstName="Маргарита" lastName="Губанова" class="H" bookNumber="5590119" birthDay="20.06.2012"/>
+          <Female firstName="" lastName="" class="" bookNumber="" birthDay="" points="0,0"/>
+          <Club city="Тула" name="Мечта" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="Алексеев" trener1FirstName="Эльдар" trener2LastName="" trener2FirstName="" country="Россия" regionId="71"/>
+        </Couple>
+        <Couple n="124" place="5" class="E" points="0,25" classPlace="5" classIntReg="5">
+          <Male firstName="Надежда" lastName="Смаженная" class="E" bookNumber="" birthDay="01.01.2012"/>
+          <Female firstName="" lastName="" class="N-1" bookNumber="" birthDay="" classIntReg="1" classPlace="1" points="1,0"/>
+          <Club city="Москва" name="АЛС" chief1LastName="" chief1FirstName="" chief2LastName="" chief2FirstName="" trener1LastName="" trener1FirstName="" trener2LastName="" trener2FirstName="" country="Россия" regionId="77"/>
+        </Couple>
+      </Couples>
+    </Registration>
+    <Judges>
+      <Judge id="!(0)" city="Москва" club="Шоколад" category="Первая" firstName="Татьяна" lastName="Ветковская" fatherName="" bookNumber="" country="Москва"/>
+      <Judge id="B(2)" bookNumber="" city="Москва" club="Арт-Данс" category="Первая" firstName="Светлана" lastName="Коматина" fatherName="" country="Москва"/>
+      <Judge id="C(3)" bookNumber="" city="Москва" category="Первая" firstName="Сергей" lastName="Кошелев" fatherName="" country="Москва"/>
+      <Judge id="D(4)" bookNumber="" city="Москва" club="На Юго-Западе" category="Первая" firstName="Елена" lastName="Муравьева" fatherName="" country="Москва"/>
+      <Judge id="E(5)" bookNumber="" city="Москва" club="Русский стандарт" category="Первая" firstName="Марина" lastName="Пархоменко" fatherName="" country="Москва"/>
+      <Judge id="F(6)" bookNumber="" city="Москва" club="ДК Прожектор" category="Первая" firstName="Александр" lastName="Соколов" fatherName="" country="Москва"/>
+      <Judge id="G(7)" bookNumber="" city="Москва" club="АЛС" category="Первая" firstName="Сергей" lastName="Шляхов" fatherName="" country="Москва"/>
+    </Judges>
+    <Results>
+      <Round no="1" name="финал" head="1" couples="5" nextRound="0" boardPoint="0" dup="0" ddown="0" dances="3" mode="skating">
+        <Total>
+          <Result n="91" sum="7" place="2"/>
+          <Result n="94" sum="3" place="1"/>
+          <Result n="113" sum="10,5" place="3"/>
+          <Result n="114" sum="12" place="4"/>
+          <Result n="124" sum="12,5" place="5"/>
+        </Total>
+        <Dances>
+          <Dance no="1" name="S">
+            <Result n="91" place="2" head="1">143141</Result>
+            <Result n="94" place="1" head="1">211213</Result>
+            <Result n="113" place="5" head="1">535525</Result>
+            <Result n="114" place="3" head="1">322352</Result>
+            <Result n="124" place="4" head="1">454434</Result>
+          </Dance>
+          <Dance no="2" name="Ch">
+            <Result n="91" place="3" head="1">145131</Result>
+            <Result n="94" place="1" head="1">211212</Result>
+            <Result n="113" place="2" head="1">434324</Result>
+            <Result n="114" place="4" head="1">323453</Result>
+            <Result n="124" place="5" head="1">552545</Result>
+          </Dance>
+          <Dance no="3" name="J">
+            <Result n="91" place="2" head="1">141151</Result>
+            <Result n="94" place="1" head="1">213312</Result>
+            <Result n="113" place="3,5" head="1">534225</Result>
+            <Result n="114" place="5" head="1">425534</Result>
+            <Result n="124" place="3,5" head="1">352443</Result>
+          </Dance>
+        </Dances>
+      </Round>
+    </Results>
+  </GroupData>
+</DanceData>

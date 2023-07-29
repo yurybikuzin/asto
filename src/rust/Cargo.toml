@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "arrange_millis",
+    "common_macros2",
+    "op_mode",
+    "pool_db",
+    "spreadsheets",
+    "web_sys_utils",
+
+    "asto_back",
+    "asto_front",
+    "asto_common",
+    "asto_db",
+]

@@ -1,0 +1,132 @@
+[package]
+name = "asto_front"
+version = "0.16.1"
+# 0.16.1 totaly removed login_export dependency
+# 0.16.0 removed login support
+# 0.15.12 - добавил ссылку "ПРОТОКОЛЫ ФЕСТИВАЛЕЙ", добавил cross.svg, поправил issue with suggestlar; fixed clippy issues
+# 0.15.11 - добавил поддержку '#перебравшие-баллы' для начинашек (раньше было '#перебравшие' только для классовых)
+# 0.15.10 - добавил поддержку '#архив [только]' для судей (раньше было только для танцоров)
+# 0.15.9 - "активация" за 2023
+# - добавил в Базе новую колонку "Взнос", которая содержит информацию о том, сделан ли взнос за танцора за 2023 год, при этом мы различаем ситуацию Н2/Н3 взнос платить не обязаны, но могут
+# - начиная с турнира 19.02.2023, для танцоров, неуплативших взнос за 2023 год, очки/баллы из протокола в Базу вносятся, но не начисляются танцору
+# 0.15.8 - fixed following BUGS:
+# - не начисляются баллы "начинашкам" за участе в "классовых" категориях
+# - после перевода "начинашки" в Е-класс история начисления баллов содержит искаженную информацию (показывются только нерелевантные очки, набранные за участие в "классовых" категориях в время пребывания в начинашках)
+# - "зачеркивание очков" (для неоплативших взнос за 2023 год) реализовано только для классовых танцоров, аналогичного "зачеркивания баллов" для начинашек ещё не сделано
+# 0.15.7 - introduced 'fn is_not_active' (ACTIVE_SINCE, ACTIVE_IN_2023); fixed issue with Dancer::is_beginning()
+# 0.15.6 - cleaned console output
+# 0.15.5 - fixed issue with auto collapse after open url in new tab; used SAFE_URL alphabet for base64 (and STAnDART for backward compatibility), indifferent paddnig mode whilst decode, and no paddning on encode
+# 0.15.4 - added support for class_upgrade для начинающих
+# 0.15.3 - fixed issue with find button (was visible for trainerlar and clublar)
+# 0.15.2 - search clubs
+# 0.15.1 - search trainers
+# 0.15.0 - a100 -> asto
+# 0.14.8 - adopted to asto_common 0.14.8
+# 0.14.7 - fixed issue with fill_trlar_with_before_upgrade_state
+# 0.14.6 - uses asto_common 0.14.6
+# 0.14.5 - eliminated St+La in favor to St, La
+# 0.14.4 - костыль для class_upgrade issue
+# 0.14.3 - added support for '#класс КЛАСС', '#перебравшие LIMIT'
+# 0.14.2 - added support for '#архив только'
+# 0.14.1 - added support for '#архив'
+# 0.14.0 - remove place from EventResult
+# 0.13.2 - improved suggest
+# 0.13.1 - added suggest, clear button 
+# 0.13.0 - enhanced struct InitData; enhanced hashtag search for dancers and judges
+# 0.12.0 - enhanced struct InitData
+# 0.11.0 - extended db structure
+# 0.10.4 - fixed issue with text alignment in td while portrait
+# 0.10.3 - added #trainer, deployed to prod
+# 0.10.2 - ready for demo
+# 0.10.1 - added hashtag search support for dancers and judges
+# 0.10.0 - changed InitData format (u* => i*)
+# 0.9.0 - Commit implemented (NOT!)
+# 0.8.0 - restored ping
+# 0.7.3 - improved public search results for dancer: added trainer, class, score
+# 0.7.2 - lists => tables; turned off ping for dev 
+# 0.7.1 - adopted to loader
+# 0.7.0 - adopted to ipado_*: 0.15.*
+# 0.6.7 - Отключил видео за очень высокое потребление трафика
+# 0.6.6 - Завершил косплей-оформление под hundred.su
+# 0.6.5 - first demo ready
+# 0.6.4 - did UI for add/edit judge
+# 0.6.3 - did UI for add/edit club
+# 0.6.2 - did UI for add/edit citi
+# 0.6.1 - refactored render
+# 0.6.0 - added support for #no_access
+# 0.5.0 - from sales_front TEMPLATE
+# 0.3.1 - adopted to op_mode 0.2.0
+# 0.3.0 - adopted to new db (with op_mode)
+# 0.2.4 - filters introduced
+# 0.2.3 - fixed clippy issues 
+# 0.2.2 - judgelar, trainerlar, dancelar
+# 0.2.1 - citilar, clublar
+# 0.2.0 - InitData implemnemnted
+# 0.1.0 - first implementation
+description = "asto_front"
+authors = ["Yury Bikuzin <yury.bikuzin@gmail.com>"]
+readme = "README.md"
+edition = "2021"
+# wasm-opt = false
+
+# https://docs.rs/built/0.5.1/built/index.html
+build = "build.rs"
+
+[build-dependencies]
+built = "0.6"
+
+[lib]
+crate-type = ["cdylib"]
+
+# https://rustwasm.github.io/wasm-pack/book/cargo-toml-configuration.html
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
+
+[dependencies]
+anyhow = "1"
+console_error_panic_hook = "0.1"
+dominator = "0.5"
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+wasm-bindgen-futures = "0.4"
+futures-signals = "0.3"
+gloo-timers = { version = "0.2", features = ["futures"] }
+js-sys = "0.3"
+once_cell = "1.7"
+serde_json = "1"
+serde_derive = "1"
+serde = "1"
+asto_common = { path = "../asto_common" }
+chrono = "0.4"
+itertools = "0.11"
+op_mode = { path = "../op_mode" }
+web_sys_utils = { path = "../web_sys_utils" }
+lazy_static = "1"
+semver = "1"
+strum = { version = "0.24", features = ["derive"] } # left 0.24 due to 0.25 leads to error:
+# 17 |                         .children(ClubSortBy::iter().map(|i|
+#    |                                               ^^^^ variant or associated item not found in `ClubSortBy`
+#
+flate2 = "1"
+bincode = "1"
+common_macros2 = { path = "../common_macros2" }
+rmp-serde = "1"
+base64 = "0.21"
+regex = "1"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+    "Headers",
+    "Response",
+    "RequestInit",
+    "Window",
+    "Storage",
+    "WebSocket",
+    "BinaryType",
+    "ErrorEvent",
+    "MessageEvent",
+    "Url",
+    "HtmlSelectElement",
+    "Element", 
+    "NamedNodeMap", 
+]

@@ -1,0 +1,46 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n                    select add_dancer( $1, $25::int\n                        , add_person($1, null::int\n                            , $2::text\n                            , $3::text\n                            , $4::text\n                            , $5::text\n                            , $6::date\n                        )::int\n                        , $7::int\n                        , add_club($1, null::int\n                            , $8\n                            , add_citi($1::smallint\n                                , null::int\n                                , $9::text\n                            )::int\n                            , null::int\n                        )::int\n                        , add_trainer($1, null::int\n                            , $10\n                            , $11\n                            , $12\n                            , $13\n                            , add_club($1, null::int\n                                , $8::text\n                                , add_citi($1::smallint\n                                    , null::int\n                                    , $9::text\n                                )::int\n                                , null::int\n                            )::int\n                        )\n                        , add_trainer($1, null::int\n                            , $14\n                            , $15\n                            , $16\n                            , $17\n                            , add_club($1, null::int\n                                , $8::text\n                                , add_citi($1::smallint\n                                    , null::int\n                                    , $9::text\n                                )::int\n                                , null::int\n                            )::int\n                        )\n                        , (select id from classlar where value = $18)\n                        , (select id from classlar where value = $19)\n                        , $20::int\n                        , $21::int\n                        , $22::int\n                        , $23::int\n                        , $24::bool\n                    ) \"id!\"\n                ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id!",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int2",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Date",
+        "Int4",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Text",
+        "Int4",
+        "Int4",
+        "Int4",
+        "Int4",
+        "Bool",
+        "Int4"
+      ]
+    },
+    "nullable": [
+      null
+    ]
+  },
+  "hash": "cc074b9b57280562aa3739441cde85fbbd591457eb2fc4e2b3cfd5b2ec910934"
+}

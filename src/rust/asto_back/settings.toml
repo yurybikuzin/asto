@@ -1,0 +1,31 @@
+
+ping_interval_secs = 15
+
+[data]
+max_at_once = 10
+
+[db]
+url="REMOVED DUE TO SENSITIVE DATA"
+connection_max_count=1
+connection_live_for_secs=10
+
+[spreadsheet]
+id="REMOVED DUE TO SENSITIVE DATA"
+service_account_secret_file="sales@yury.bikuzin.42.json"
+
+export_judges_sheet_name = "Судьи::export"
+export_clubs_sheet_name = "Клубы::export"
+export_dancers_sheet_name = "Танцоры::export"
+
+event_result_spreadsheet_id = "REMOVED DUE TO SENSITIVE DATA"
+event_result_import_range = "A2:J"
+
+import_clubs_data_range = "Клубы!A2:G"
+import_judges_data_range = "Судьи!A2:L"
+import_dancers_data_range = "Танцоры!A2:X"
+
+[for_anton]
+id="REMOVED DUE TO SENSITIVE DATA"
+service_account_secret_file="sales@yury.bikuzin.42.json"
+export_dancers_sheet_name = "Worksheet"
+

@@ -1,0 +1,35 @@
+[package]
+name = "pool_db"
+version = "0.8.0"
+# 0.8.0 - uses sqlx 0.7; ATTENTION: `cargo install sqlx-cli` required to upgrade sqlx-cli also
+# 0.7.3 - added retry_secs: Option<u64> to PoolDbSettings
+# 0.7.2 - added feature sqlx-runtime-tokio-native-tls
+# 0.7.1 - added #[derive(serde::Serialize)] to PoolDbSettings
+# 0.7.0 - added PoolDbSettings::local_url
+# 0.6.0 - used https://docs.rs/sqlx/latest/sqlx/pool/struct.PoolOptions.html#method.idle_timeout for live_for_secs
+# 0.5.0 - fixed issue with ACCESS deadlock
+# 0.4.0 - while get_pool wait for prev call is executed
+# 0.3.0 - multiple database support
+# 0.2.0 - live_for_secs became Option
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = [ "sqlx/runtime-tokio-rustls" ] 
+sqlx-runtime-tokio-native-tls = [ "sqlx/runtime-tokio-native-tls" ]
+pg = [ "sqlx/postgres", "op_mode" ]
+mysql = [ "sqlx/mysql", "op_mode" ]
+settings = [ "serde" ]
+all = ["pg", "mysql", "settings"]
+
+[dependencies]
+log = "0.4"
+anyhow = "1"
+tokio = "1"
+lazy_static = "1"
+common_macros2 = { path = "../common_macros2" }
+strum = { version = "0.25", features = ["derive"] }
+sqlx = { version = "0.7", optional = true, default-features = false }
+serde = { version = "1", features = ["derive"], optional = true }
+op_mode = { path = "../op_mode", optional = true  }
